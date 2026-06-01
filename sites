@@ -1,0 +1,140 @@
+<p>Web application with modern UI and responsive design.</p>
+        </div>
+
+        <div class="card">
+            <h3>Project Two</h3>
+            <p>Interactive dashboard for data visualization.</p>
+        </div>
+
+        <div class="card">
+            <h3>Project Three</h3>
+            <p>Mobile-friendly platform built with modern technologies.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">UI/UX</div>
+        <div class="skill">Responsive Design</div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: contact@example.com</p>
+</section>
+
+<footer>
+    © 2026 Portfolio. All Rights Reserved.
+</footer>
+
+</body>
+</html>
+Save it as <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    color:#aaa;
+    margin-top:10px;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e1e1e;
+    padding:20px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#222;
+    padding:10px 15px;
+    border-radius:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#777;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Creative Portfolio</h1>
+    <p>Design • Development • Digital Projects</p>
+</header>
+
+<section>
+    <h2>About</h2>
+    <p>
+        A collection of digital projects, designs, and technical work.
+        Focused on creating clean, modern, and functional experiences.
+    </p>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <div class="card">
+            <h3>Project One</h3>
