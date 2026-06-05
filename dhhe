@@ -1,0 +1,42 @@
+<section>
+    <h2>Featured Project</h2>
+
+    <div class="card">
+        <img src="images/logo-design-project.jpg" alt="Logo Design & Montreal Titans Project">
+
+        <h3>Logo Design & Montreal Titans Branding Project</h3>
+
+        <p>
+            A collection of graphic design work including logo creation, branding,
+            sports team identity development, career research, design tools,
+            industry organizations, education requirements, salary research,
+            target audience analysis, values, and promotional assets created for
+            the Montreal Titans basketball team project.
+        </p>
+    </div>
+</section>
+
+<style>
+.card{
+    background:#1e1e1e;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.3);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#ccc;
+}
+</style>
